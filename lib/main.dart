@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 void main()=>runApp(MaterialApp(
-  home:Home()
+    home:Home()
 
 ));
 class Home extends StatelessWidget {
@@ -14,26 +14,20 @@ class Home extends StatelessWidget {
 
       ),
       body: Center(
-          child: Text("Things to be done here",
-            style: TextStyle(
-              fontSize: 20,
+          child: Icon(Icons.account_balance_outlined,
+    size: 100,
+            color: Colors.amber,
+    ),
 
-              fontWeight: FontWeight.bold,
-            ),
-
-
-          )
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Start"),
+      child: Text("click"),
         backgroundColor: Colors.red[900],
-
-      ),
+      )
 
     ) ;
-  }
+    }
 }
-
 
 
 
